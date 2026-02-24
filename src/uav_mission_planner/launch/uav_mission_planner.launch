@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+  <!-- Include main launch file -->
+  <node name="webcam_publisher" pkg="uav_mission_planner" type="webcam_publisher.py"/>
+  <node name="qr_code_detector" pkg="uav_mission_planner" type="qr_code_detector.py"/>
+  <!--<node name="qr_to_move" pkg="uav_mission_planner" type="qr_to_move.py" output="screen"/>-->
+  <node name="line_follower" pkg="uav_mission_planner" type="line_follower.py"/>
+  <node name="cone_detector" pkg="uav_mission_planner" type="cone_detector.py"/>
+  <node name="h_detector" pkg="uav_mission_planner" type="h_detector.py"/>
+  <node name="uav_mission_planner" pkg="uav_mission_planner" type="uav_mission_planner.py" output="screen"/>
+</launch>

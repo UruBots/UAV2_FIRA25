@@ -1,0 +1,4 @@
+<launch>
+    <!-- Start remap_pose_node -->
+    <node pkg="uav_mission_planner" type="remap_pose.py" name="remap_pose_node" output="screen"/>
+</launch>

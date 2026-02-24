@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+  <!-- Include main launch file -->
+  <!-- TODO - this remapping is not working as expected -->
+  <remap from="/zed/zed_node/pose" to="/mavros/vision_pose/pose" /> 
+  <remap from="/zed/zed_node/pose_with_covariance" to="/mavros/vision_pose/pose_cov" /> 
+  <include file="$(find zed_wrapper)/launch/zed.launch"></include>
+  <include file="$(find mavros)/launch/px4.launch"></include>
+  <!-- <include file="$(find uav_mission_planner)/launch/remap_pose.launch"></include>-->
+  <!-- <include file="$(find uav_mission_planner)/launch/qr_detector.launch"></include>-->
+</launch>

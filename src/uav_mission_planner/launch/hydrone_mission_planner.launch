@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+  <!-- Include main launch file -->
+  <node name="node" pkg="uav_mission_planner" type="hydrone_mission_planner.py" output="screen"/>
+</launch>
