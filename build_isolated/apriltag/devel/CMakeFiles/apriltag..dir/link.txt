@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -O3 -DNDEBUG  -shared  -o apriltag..so CMakeFiles/apriltag..dir/apriltag_pywrap.c.o  -Wl,-rpath,/home/jetson/UAV2/build_isolated/apriltag/devel: libapriltag.so.3.4.3 -lpthread -lm 

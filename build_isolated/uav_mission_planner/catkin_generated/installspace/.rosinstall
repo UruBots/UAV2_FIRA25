@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/jetson/UAV2/install_isolated/setup.sh

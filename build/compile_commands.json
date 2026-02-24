@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/jetson/UAV2/build/zed-ros-wrapper/zed_nodelets",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"zed_nodelets\\\" -DZEDNodelets_EXPORTS -I/home/jetson/UAV2/devel/include -I/home/jetson/UAV2/src/zed-ros-wrapper/zed-ros-interfaces/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/local/cuda/include -I/usr/local/zed/include -I/home/jetson/UAV2/src/zed-ros-wrapper/zed_nodelets/src/tools/include -I/home/jetson/UAV2/src/zed-ros-wrapper/zed_nodelets/src/zed_nodelet/include -I/home/jetson/UAV2/src/zed-ros-wrapper/zed_nodelets/src/rgbd_sensors_sync_nodelet/include -I/home/jetson/UAV2/src/zed-ros-wrapper/zed_nodelets/src/rgbd_sensors_demux_nodelet/include   -fopenmp -O3 -DNDEBUG -fPIC   -std=c++11 -Wno-deprecated-declarations -o CMakeFiles/ZEDNodelets.dir/src/tools/src/sl_tools.cpp.o -c /home/jetson/UAV2/src/zed-ros-wrapper/zed_nodelets/src/tools/src/sl_tools.cpp",
+  "file": "/home/jetson/UAV2/src/zed-ros-wrapper/zed_nodelets/src/tools/src/sl_tools.cpp"
+},
+{
+  "directory": "/home/jetson/UAV2/build/zed-ros-wrapper/zed_nodelets",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"zed_nodelets\\\" -DZEDNodelets_EXPORTS -I/home/jetson/UAV2/devel/include -I/home/jetson/UAV2/src/zed-ros-wrapper/zed-ros-interfaces/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/local/cuda/include -I/usr/local/zed/include -I/home/jetson/UAV2/src/zed-ros-wrapper/zed_nodelets/src/tools/include -I/home/jetson/UAV2/src/zed-ros-wrapper/zed_nodelets/src/zed_nodelet/include -I/home/jetson/UAV2/src/zed-ros-wrapper/zed_nodelets/src/rgbd_sensors_sync_nodelet/include -I/home/jetson/UAV2/src/zed-ros-wrapper/zed_nodelets/src/rgbd_sensors_demux_nodelet/include   -fopenmp -O3 -DNDEBUG -fPIC   -std=c++11 -Wno-deprecated-declarations -o CMakeFiles/ZEDNodelets.dir/src/zed_nodelet/src/zed_wrapper_nodelet.cpp.o -c /home/jetson/UAV2/src/zed-ros-wrapper/zed_nodelets/src/zed_nodelet/src/zed_wrapper_nodelet.cpp",
+  "file": "/home/jetson/UAV2/src/zed-ros-wrapper/zed_nodelets/src/zed_nodelet/src/zed_wrapper_nodelet.cpp"
+},
+{
+  "directory": "/home/jetson/UAV2/build/zed-ros-wrapper/zed_nodelets",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"zed_nodelets\\\" -DZEDNodelets_EXPORTS -I/home/jetson/UAV2/devel/include -I/home/jetson/UAV2/src/zed-ros-wrapper/zed-ros-interfaces/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/local/cuda/include -I/usr/local/zed/include -I/home/jetson/UAV2/src/zed-ros-wrapper/zed_nodelets/src/tools/include -I/home/jetson/UAV2/src/zed-ros-wrapper/zed_nodelets/src/zed_nodelet/include -I/home/jetson/UAV2/src/zed-ros-wrapper/zed_nodelets/src/rgbd_sensors_sync_nodelet/include -I/home/jetson/UAV2/src/zed-ros-wrapper/zed_nodelets/src/rgbd_sensors_demux_nodelet/include   -fopenmp -O3 -DNDEBUG -fPIC   -std=c++11 -Wno-deprecated-declarations -o CMakeFiles/ZEDNodelets.dir/src/rgbd_sensors_sync_nodelet/src/rgbd_sensor_sync.cpp.o -c /home/jetson/UAV2/src/zed-ros-wrapper/zed_nodelets/src/rgbd_sensors_sync_nodelet/src/rgbd_sensor_sync.cpp",
+  "file": "/home/jetson/UAV2/src/zed-ros-wrapper/zed_nodelets/src/rgbd_sensors_sync_nodelet/src/rgbd_sensor_sync.cpp"
+},
+{
+  "directory": "/home/jetson/UAV2/build/zed-ros-wrapper/zed_nodelets",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"zed_nodelets\\\" -DZEDNodelets_EXPORTS -I/home/jetson/UAV2/devel/include -I/home/jetson/UAV2/src/zed-ros-wrapper/zed-ros-interfaces/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/local/cuda/include -I/usr/local/zed/include -I/home/jetson/UAV2/src/zed-ros-wrapper/zed_nodelets/src/tools/include -I/home/jetson/UAV2/src/zed-ros-wrapper/zed_nodelets/src/zed_nodelet/include -I/home/jetson/UAV2/src/zed-ros-wrapper/zed_nodelets/src/rgbd_sensors_sync_nodelet/include -I/home/jetson/UAV2/src/zed-ros-wrapper/zed_nodelets/src/rgbd_sensors_demux_nodelet/include   -fopenmp -O3 -DNDEBUG -fPIC   -std=c++11 -Wno-deprecated-declarations -o CMakeFiles/ZEDNodelets.dir/src/rgbd_sensors_demux_nodelet/src/rgbd_sensor_demux.cpp.o -c /home/jetson/UAV2/src/zed-ros-wrapper/zed_nodelets/src/rgbd_sensors_demux_nodelet/src/rgbd_sensor_demux.cpp",
+  "file": "/home/jetson/UAV2/src/zed-ros-wrapper/zed_nodelets/src/rgbd_sensors_demux_nodelet/src/rgbd_sensor_demux.cpp"
+},
+{
+  "directory": "/home/jetson/UAV2/build/zed-ros-wrapper/zed_wrapper",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"zed_wrapper\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O3 -DNDEBUG   -std=c++11 -o CMakeFiles/zed_wrapper_node.dir/src/zed_wrapper_node.cpp.o -c /home/jetson/UAV2/src/zed-ros-wrapper/zed_wrapper/src/zed_wrapper_node.cpp",
+  "file": "/home/jetson/UAV2/src/zed-ros-wrapper/zed_wrapper/src/zed_wrapper_node.cpp"
+}
+]

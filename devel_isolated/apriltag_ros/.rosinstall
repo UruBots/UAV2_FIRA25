@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/jetson/UAV2/devel_isolated/apriltag_ros/setup.sh

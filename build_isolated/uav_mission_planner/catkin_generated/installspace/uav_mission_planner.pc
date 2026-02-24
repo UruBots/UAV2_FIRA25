@@ -1,0 +1,8 @@
+prefix=/home/jetson/UAV2/install_isolated
+
+Name: uav_mission_planner
+Description: Description of uav_mission_planner
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

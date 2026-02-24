@@ -1,0 +1,2 @@
+apriltag:apriltag_ros/apriltag_ros:uav_mission_planner:zed-ros-wrapper/zed-ros-interfaces:zed-ros-wrapper/zed_nodelets:zed-ros-wrapper/zed_ros:zed-ros-wrapper/zed_wrapper
+-DCATKIN_DEVEL_PREFIX=/home/jetson/UAV2/devel -DCMAKE_INSTALL_PREFIX=/home/jetson/UAV2/install -G Unix Makefiles
